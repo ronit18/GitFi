@@ -1,11 +1,10 @@
-import { Button } from '@/app/chakra';
+import { Button, Container } from '@/app/chakra/chakra';
+import Navbar from './components/Navbar';
 
 export default function Home() {
 	return (
-		<main>
-			<div>
-				<Button colorScheme="blue">Button</Button>
-			</div>
-		</main>
+		<Container>
+			<Navbar />
+		</Container>
 	);
 }
